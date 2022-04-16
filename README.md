@@ -1,6 +1,6 @@
 # Blockchain Assignment (CS4262-Distributed Systems)
 
-Concepts learnt about blockchains
+### Concepts learnt about blockchains
 
 1. **Decentralized Consensus** - A blockchain is a decentralized peer-to-peer system that does not have a central authority to control the exchange of information. The nodes in a blockchain network come to an agreement using consensus algorithms to make decisions. Bitcoin uses Proof of Work (PoW) consensus algorithm.
 

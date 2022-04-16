@@ -247,7 +247,7 @@ public final class AssetTransfer implements ContractInterface {
      * @return the duplicate asset
      */
     @Transaction(intent = Transaction.TYPE.SUBMIT)
-    public String DuplicateAsset(final Context ctx, final String originalAssetID, final String duplicateAssetID, final String owner) {
+    public Asset DuplicateAsset(final Context ctx, final String originalAssetID, final String duplicateAssetID, final String owner) {
         // Retrieve the asset to be duplicated
         Asset originalAsset = ReadAsset(ctx, originalAssetID);
 
